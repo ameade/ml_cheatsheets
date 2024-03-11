@@ -48,7 +48,7 @@
 23. **Batch Normalization**: A technique used to normalize the activations of a neural network layer by subtracting the batch mean and dividing by the batch standard deviation, which can help improve the training speed and stability.
 
 24. **Computational Graph** for out = x * y + z with gradients for inputs of all 1
-
+```
    (x)1   (y)1   (z)1
     |      |      |
     |      |      |
@@ -65,6 +65,7 @@
          d_add(1)
             |
           (out)
+````
 
 25. **Supervised Learning** is a machine learning approach where an AI model is trained on labeled data, meaning that the input data is paired with corresponding target or output values.
 26. **Reinforcement Learning** is a machine learning approach where an agent learns to make decisions by interacting with an environment. The agent learns to take actions that maximize a cumulative reward signal over time, based on the feedback it receives from the environment.
